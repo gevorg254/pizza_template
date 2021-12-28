@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: monospace;
+  scroll-behavior: smooth;
 }
 li {
   list-style: none;
@@ -80,6 +81,7 @@ a {
 .main_info {
   background-color: #855760;
   width: 100%;
+  padding-bottom: 50px;
 }
 .main_info h2 {
   color: white;
@@ -89,7 +91,7 @@ a {
   padding: 25px;
 }
 .main_info .about_chef {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
 }
 .main_info .about_chef .inside_div {
@@ -104,4 +106,31 @@ a {
 .main_info .about_chef img {
   border-radius: 60%;
   width: 150px;
+}
+.main_info .second_div {
+  padding-top: 50px;
+  max-width: 1000px;
+  margin: auto;
+}
+.main_info .second_div img {
+  margin: auto;
+  width: 100%;
+}
+.main_info .second_div h3 {
+  color: white;
+  font-weight: 100;
+  font-size: 30px;
+  padding-top: 30px;
+}
+.main_info .second_div p {
+  color: white;
+  font-size: 19px;
+  width: 250px;
+  padding-top: 25px;
+}
+.main_info .second_div .second_text {
+  display: flex;
+}
+.main_info .second_div .second_text .second_days {
+  padding-left: 350px;
 }
